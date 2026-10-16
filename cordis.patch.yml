@@ -1,0 +1,6 @@
+# dsh-theme-longmarch —— bundle 挂载声明
+# 纯视觉插件：宿主半侧空 apply，配色/背景/特效全在浏览器半侧（client.js）。
+# 桌面版安装：包放进 profile 的 node_modules + 在 profile 的 cordis.patch.yml 保留下面这一行。
+- insert:
+    - id: dsh-theme-longmarch
+      name: 'dsh-theme-longmarch'

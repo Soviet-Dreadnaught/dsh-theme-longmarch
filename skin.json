@@ -1,0 +1,23 @@
+{
+  "id": "longmarch",
+  "name": "长征终端",
+  "nameEn": "Long March Terminal",
+  "author": "@local",
+  "tagline": "TFR 长征 / Loji 路线：黑底红字磷光终端 + 红色数据雨 + CRT 扫描线",
+  "taglineEn": "TFR Long March / Loji route: red phosphor terminal, data rain and CRT scanlines",
+  "description": "把 DSH Web GUI 换成《烈焰升腾》长征计划的终端：党务 / 政务 / 军委 / 国安四套部门预设，各自带徽记、配色与背景纹样。",
+  "tags": [
+    "terminal",
+    "crt",
+    "red",
+    "dark",
+    "tfr",
+    "theme",
+    "chinese"
+  ],
+  "accent": "#d81818",
+  "bodyAttr": "data-dsh-longmarch",
+  "dshCompatibility": "0.2.0rc2",
+  "package": "dsh-theme-longmarch",
+  "order": 30
+}

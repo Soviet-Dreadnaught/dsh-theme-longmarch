@@ -1,0 +1,11 @@
+# 统一换行：仓库里一律 LF，Windows 检出时不自动改 CRLF
+* text=auto eol=lf
+
+# 二进制资源别当文本处理
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
