@@ -1,4 +1,4 @@
-# 长征终端 · dsh-theme-longmarch
+<h1 align="center"><span style="color:#FF0000">长征机 · dsh-theme-longmarch</span></h1>
 
 <img src="icon@2x.png" width="96" alt="长征终端">
 
