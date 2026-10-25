@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "长征终端 — DeepSeek Harness 主题皮肤：TFR《烈焰升腾》新左派「长征 / Loji」AI 路线配色（红磷光终端 + 数据雨 + CRT 扫描线），四套部门预设各自带徽记、配色与背景纹样。",
+  "author": "Soviet-Dreadnaught (https://github.com/Soviet-Dreadnaught)",
   "main": "index.js",
   "exports": {
     ".": "./index.js",

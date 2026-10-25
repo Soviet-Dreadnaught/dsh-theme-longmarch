@@ -1,10 +1,15 @@
-<h1 align="center"><span style="color:#FF0000">长征机 · dsh-theme-longmarch</span></h1>
+<h1 align="center">长征机 · dsh-theme-longmarch</h1>
+
+> **作者**：[@Soviet-Dreadnaught](https://github.com/Soviet-Dreadnaught)
+> **仓库**：https://github.com/Soviet-Dreadnaught/dsh-theme-longmarch
+>
+> 转载、搬运、做视频请保留上面这两行 —— 项目名很容易和别的长征主题插件混在一起。
 
 <img src="icon@2x.png" width="96" alt="长征终端">
 
-![四套部门预设](docs/presets.jpg)
+![动效预览：四套部门预设轮播](docs/demo.gif)
 
-<sub>上图：四套部门预设的实际配色（党务 / 政务 / 军委 / 国安）。每一套的徽记、配色与背景纹样都会整体切换。</sub>
+<sub>动效预览（四套部门预设轮播）：红色数据雨、CRT 扫描线 + 过扫光带、军委的雷达扫描扇、徽记水印。</sub>
 
 
 > 把 DeepSeek Harness 的 Web GUI 换成《烈焰升腾》（The Fire Rises）新左派「长征 / Loji」AI 路线的终端：
@@ -66,6 +71,10 @@ dsh plugin --profile desktop add ./dsh-theme-longmarch
 > 桌面版对 CLI 安装可能会拒绝（需要先确认宿主版本允许本地包装载）；被拒就走方式一。
 
 ## 四套部门预设
+
+![四套部门预设配色对照](docs/presets.jpg)
+
+<sub>四套预设的静态对照（党务 / 政务 / 军委 / 国安）。徽记、配色与背景纹样会整体切换。</sub>
 
 | 预设 | id | 徽记 | 形式 | 配色 | 背景纹样 |
 |---|---|---|---|---|---|
@@ -229,6 +238,14 @@ DSH 插件管理页读的是 **`package.json` 的 `meta.icon`**，它被直接�
 - **与其它皮肤插件同时启用**时默认让位（只保留 CSS 层，不抢主题偏好）；想强推就切「强制接管」。
 - **安装需要写 profile 目录**：CLI 安装被拒时只能手动放包（见安装方式一）。
 - **纯 CSS 层不做像素级布局改动**：主题不移动、不隐藏宿主控件，只改外观。
+
+## 作者与来源
+
+- **作者**：[@Soviet-Dreadnaught](https://github.com/Soviet-Dreadnaught)
+- **仓库**：https://github.com/Soviet-Dreadnaught/dsh-theme-longmarch
+- 同人创作，与《烈焰升腾》模组作者、与 DeepSeek 官方均无隶属关系
+- 与其它 DSH 的「长征 / Loji」相关插件（例如开机动画那类）不是同一个项目，请勿混淆
+- 转载 / 搬运 / 视频二创请保留作者名与仓库地址
 
 ## 许可
 
