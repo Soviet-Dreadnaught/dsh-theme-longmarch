@@ -1,6 +1,6 @@
 {
   "name": "dsh-theme-longmarch",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "description": "长征终端 — DeepSeek Harness 主题皮肤：TFR《烈焰升腾》新左派「长征 / Loji」AI 路线配色（红磷光终端 + 数据雨 + CRT 扫描线），四套部门预设各自带徽记、配色与背景纹样。",
@@ -27,7 +27,8 @@
     "LICENSE",
     "CHANGELOG.md",
     "icon.png",
-    "icon@2x.png"
+    "icon@2x.png",
+    "README.en.md"
   ],
   "icon": "./icon.png",
   "keywords": [

@@ -1,3 +1,5 @@
+<p align="center"><b>简体中文</b> · <a href="README.en.md">English</a></p>
+
 <h1 align="center">长征机 · dsh-theme-longmarch</h1>
 
 > **作者**：[@Soviet-Dreadnaught](https://github.com/Soviet-Dreadnaught)
