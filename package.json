@@ -28,7 +28,8 @@
     "CHANGELOG.md",
     "icon.png",
     "icon@2x.png",
-    "README.en.md"
+    "README.en.md",
+    "install.ps1"
   ],
   "icon": "./icon.png",
   "keywords": [

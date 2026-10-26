@@ -46,7 +46,26 @@ A purely visual plugin. It registers no tools, makes no network requests and nev
 
 ## Installation
 
-### Option 1: drop it into the profile's node_modules (recommended, works on desktop)
+### Option 0: one-click script (Windows desktop, recommended)
+
+```powershell
+cd dsh-theme-longmarch
+powershell -ExecutionPolicy Bypass -File .\install.ps1
+```
+
+The script locates the profile under `$DSH_HOME`, registers the package in `dependencies` and `dsh.profile.bundles`, then runs an install. It is **idempotent** (re-running writes nothing), backs the manifest up first, and validates the edited JSON before writing — if validation fails it leaves the file untouched and prints the manual steps instead.
+
+| Flag | Purpose |
+|---|---|
+| `-DryRun` | print the lines it would write, change nothing |
+| `-Profile <name>` | target profile, defaults to `desktop` |
+| `-DshHome <path>` | DSH_HOME, defaults to the environment variable then `~\\.dsh` |
+| `-SkipInstall` | edit the manifest only, do not run the package manager |
+
+Afterwards **quit DSH completely and reopen it** — 「长征终端」 will appear in the settings sidebar.
+
+### Option 1: drop it into the profile's node_modules by hand
+
 
 ```powershell
 # 1. copy the package into the profile's node_modules

@@ -46,7 +46,27 @@
 
 ## 安装
 
-### 方式一：放进 profile 的 node_modules（推荐，桌面版可用）
+### 方式零：一键脚本（Windows 桌面版，推荐）
+
+```powershell
+cd dsh-theme-longmarch
+powershell -ExecutionPolicy Bypass -File .\install.ps1
+```
+
+脚本会自己找 `$DSH_HOME` 下的 profile、写入 `dependencies` 与 `dsh.profile.bundles`，再跑一次 install。
+**幂等**，重复运行不会重复写；写完先用 JSON 解析校验，不过就放弃写入并提示手动步骤。
+
+| 参数 | 作用 |
+|---|---|
+| `-DryRun` | 只打印将要写入的行，不动任何文件 |
+| `-Profile <名字>` | 指定 profile，默认 `desktop` |
+| `-DshHome <路径>` | 指定 DSH_HOME，默认读环境变量再退回 `~\\.dsh` |
+| `-SkipInstall` | 只改清单、不跑包管理器 |
+
+装完**完全退出 DSH 再打开**，设置页左侧会出现「长征终端」。
+
+### 方式一：手动放进 profile 的 node_modules
+
 
 ```powershell
 # 1. 包放进 profile 的 node_modules

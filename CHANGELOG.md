@@ -8,6 +8,7 @@
 - **补齐作者署名**：`LICENSE` 版权人写成 GitHub 账号，`package.json` 补 `author` 字段；
   README 顶部与末尾都加了作者 / 仓库地址，并注明与其它「长征」相关插件不是同一个项目
 - **新增动效预览** `docs/demo.gif`：四套预设轮播，由真实 CSS + 真实组件 DOM 在不同动画时刻截帧合成
+- **新增 `install.ps1` 一键安装脚本**：自动写 profile 清单 + 跑 install，幂等、带 `-DryRun`、写前校验 JSON
 - 修掉 README 标题里的 `<span style="color:...">` —— GitHub 会剥掉内联样式，那段本来不会变红
 
 ## 1.1.0
